@@ -1,10 +1,3 @@
-Here is the full code for your Streamlit-based Disease Prediction and Risk Analysis web app, all in one .py file:
-
-
----
-
-app.py
-
 import streamlit as st
 import pandas as pd
 import numpy as np
