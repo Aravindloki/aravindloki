@@ -146,5 +146,5 @@ if st.button("Predict"):
 
     st.markdown(f"**Predicted Risk Score (Linear Regression):** {risk_pred:.2f}")
     st.markdown(f"**Disease Probability (Logistic Regression):** {disease_prob_log:.2f}")
-    st.markdown(f"**Disease Prediction (Logistic Regression):** {'Positive' if disease_pred_log == 1 else 'Negative'}")
-    st.markdown(f"**Disease Prediction (Random Forest):** {'Positive' if disease_pred_rf == 1 else 'Negative'}")
+    st.markdown(f"**Disease Prediction diabetes (Logistic Regression):** {'Positive' if disease_pred_log == 1 else 'Negative'}")
+    st.markdown(f"**Disease Prediction heart disease (Random Forest):** {'Positive' if disease_pred_rf == 1 else 'Negative'}")
